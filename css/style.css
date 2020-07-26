@@ -1,0 +1,24 @@
+.user {
+    margin-right: 20px;
+}
+
+.collapse {
+    margin-right: 20px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.custom-caption {
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.container {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
