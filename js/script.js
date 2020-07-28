@@ -51,4 +51,14 @@ function init() {
     }
 }
 
+$("#feedback-form").submit(function(event) {
+    event.preventDefault();
+
+    $(this).ajaxForm({
+        url: '',
+        type: 'post'
+    });
+    console.log($(this).serialize());
+})
+
 init();

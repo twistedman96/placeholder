@@ -10,6 +10,11 @@
     margin: 5px;
 }
 
+.card:hover {
+    outline: 3px solid rgb(103, 103, 255);
+    transition: all 0.1s;
+}
+
 .custom-caption {
     background-color: rgba(0, 0, 0, 0.733);
 }
